@@ -1,0 +1,6 @@
+{
+  "name": "TransitPulse AI — Smart Informal Transit Intelligence",
+  "description": "AI-powered real-time disruption analyzer and dynamic capacity tracker for informal transit (shared autos, vans, and local buses) in Indian cities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
