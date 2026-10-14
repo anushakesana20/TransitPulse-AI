@@ -533,7 +533,8 @@ Never claim unverified citizen reports are confirmed facts.`,
     });
   } else {
     const vite = await createViteServer({
-      server: { middlewareMode: true },
+      root: __dirname,
+      server: { middlewareMode: true, hmr: false, watch: null },
       appType: 'spa',
     });
     app.use(vite.middlewares);
